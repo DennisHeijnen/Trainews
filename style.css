@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #0b193e;
+}
+
+p .links {
+  text-align: left;
+}
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: 4rem;
+}
+
+/*-- Navigation --*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: #0b193e !important;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+
+/*-- Landing Page --*/
+.home-inner {
+  background-image: url(img/colored-pencils.jpg);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3{
+  font-size: : 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+/*-- Info Section --*/
+.narrow-info {
+  width: 75%;
+  margin: 5rem auto 19rem;
+  padding-top: 2rem;
+}
+
+.narrow h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  font-weight: : bold;
+}
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: .7rem 1.2rem;
+  margin: 2rem 1rem;
+  color: white;
+  background-color: #0b193e;
+  border-color: #0b193e;
+}
+
+.btn-secondary:hover {
+  background-color: #189582;
+  border-color: #189582;
+}
+
+/*-- Ideeën Section --*/
+.jumbotron {
+  margin-bottom: 0;
+  padding: 1.5rem 0rem 1rem;
+  border-radius: 0;
+}
+
+.narrow-ideeen {
+  width: 75%;
+  margin: 1rem auto 1rem;
+  padding-top: 2rem;
+}
+
+.narrow-ideeen h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  font-weight: : bold;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #1ebba3;
+  margin: 1rem auto 2rem;
+}
+
+.idee1 img {
+  width: 100%;
+  height: 70%;
+  border-radius: 10%;
+  margin-bottom: 2rem;
+}
+
+.idee2 img {
+  width: 100%;
+  height: 70%;
+  border-radius: 10%;
+  margin-bottom: 2rem;
+}
+
+.idee3 {
+  padding-top: 4rem;
+}
+
+.idee3 img {
+  width: 100%;
+  height: 70%;
+  border-radius: 5%;
+  margin-bottom: 2rem;
+}
+
+.idee h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+
+.idee p {
+  font-size: 1.1rem;
+}
+
+/*-- Tips & Tricks Section --*/
+.fixed {
+  background-image: url(img/yacht-background.jpg);
+  z-index: -1;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem 3rem;
+}
+
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+
+.fixed-background p {
+  margin-top: 1.5rem;
+}
+
+.row-2 {
+  padding: 1rem 2rem 9rem;
+  margin-bottom: 10rem;
+}
+
+/*-- Interview Section --*/
+.jumbotron .interview {
+  padding: 2rem 0rem 9rem;
+  font-size: 1.3rem;
+}
+
+.interview img {
+  width: 75%;
+  border-radius: 50%;
+  vertical-align: sub;
+}
+
+blockquote .svg-inline--fa {
+  color: #1ebba3;
+  margin: 1rem;
+}
+
+/*-- Dagboek Section --*/
+img .dagboek {
+  width: 20%;
+}
+
+.dagboek-hr {
+  border-top: .05rem solid #1ebba3;
+}
+
+.narrow-dagboek {
+  width: 75%;
+  margin: 5rem auto 4rem;
+  padding-top: 2rem;
+}
+
+.tekening {
+  padding-top: 4rem;
+}
+
+/*-- Contact Section --*/
+footer {
+  background-color: #0b193e;
+  color: white;
+  padding: 0 0 2rem;
+  margin-top: 1rem;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3 !important;
+}
+
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid white;
+  margin-top: 3rem;
+}
+
+/*--- Media Queries --*/
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+
+  .caption h3{
+    font-size: : 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+
+  .interview img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
